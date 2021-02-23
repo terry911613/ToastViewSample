@@ -13,6 +13,9 @@
 		E916BA122452E20800978DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E916BA102452E20800978DEA /* Main.storyboard */; };
 		E916BA142452E20900978DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E916BA132452E20900978DEA /* Assets.xcassets */; };
 		E916BA172452E20900978DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E916BA152452E20900978DEA /* LaunchScreen.storyboard */; };
+		E916BA202452E25000978DEA /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E916BA1E2452E25000978DEA /* ToastView.swift */; };
+		E916BA212452E25000978DEA /* ToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E916BA1F2452E25000978DEA /* ToastView.xib */; };
+		E916BA232452E95500978DEA /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E916BA222452E95500978DEA /* NibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E916BA132452E20900978DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E916BA162452E20900978DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E916BA182452E20900978DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E916BA1E2452E25000978DEA /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		E916BA1F2452E25000978DEA /* ToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToastView.xib; sourceTree = "<group>"; };
+		E916BA222452E95500978DEA /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				E916BA132452E20900978DEA /* Assets.xcassets */,
 				E916BA152452E20900978DEA /* LaunchScreen.storyboard */,
 				E916BA182452E20900978DEA /* Info.plist */,
+				E916BA1E2452E25000978DEA /* ToastView.swift */,
+				E916BA1F2452E25000978DEA /* ToastView.xib */,
+				E916BA222452E95500978DEA /* NibView.swift */,
 			);
 			path = ToastViewSample;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E916BA212452E25000978DEA /* ToastView.xib in Resources */,
 				E916BA172452E20900978DEA /* LaunchScreen.storyboard in Resources */,
 				E916BA142452E20900978DEA /* Assets.xcassets in Resources */,
 				E916BA122452E20800978DEA /* Main.storyboard in Resources */,
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E916BA202452E25000978DEA /* ToastView.swift in Sources */,
 				E916BA0F2452E20800978DEA /* ViewController.swift in Sources */,
 				E916BA0B2452E20800978DEA /* AppDelegate.swift in Sources */,
 				E916BA0D2452E20800978DEA /* SceneDelegate.swift in Sources */,
+				E916BA232452E95500978DEA /* NibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +297,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UXZ7FCQ3H;
+				DEVELOPMENT_TEAM = XVB2JZ6L9X;
 				INFOPLIST_FILE = ToastViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.terry.ToastViewSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terryLee.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +315,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2UXZ7FCQ3H;
+				DEVELOPMENT_TEAM = XVB2JZ6L9X;
 				INFOPLIST_FILE = ToastViewSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.terry.ToastViewSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terryLee.Sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

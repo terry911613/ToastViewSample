@@ -12,9 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func toastButton(_ sender: UIButton) {
+        ToastView.showNotification(message: "ToastView Demo")
+    }
 }
 
